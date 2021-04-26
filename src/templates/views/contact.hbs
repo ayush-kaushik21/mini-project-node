@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{>main}}
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Kaushik's</title>
+</head>
+
+<body>
+  {{>navbar}}
+
+  {{!-- Main Section --}}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto col-10  order-1 order-md-0 flex-direction">
+        <h1 class="hero-text">we will help you to <span class="hero-span">grow your business</span></h1>
+        <p class="hero-p">we are team of <span class="hero-span-p">professional developer's</span></p>
+        {{!-- <div class="btn"> --}}
+          <button class="btn-style"><a href="/contact"></a>Read More</button>
+          {{!--
+        </div> --}}
+      </div>
+      <div class="col-md-6 mx-auto col-10 order-0 order-md-1">
+        <figure>
+          <img src="images/growth.png" alt="img" class="img-fluid">
+        </figure>
+      </div>
+    </div>
+  </div>
+  {{!-- End of Main Section --}}
+
+  {{!-- about --}}
+  {{>about}}
+  {{!-- end of about --}}
+
+
+  {{!-- service --}}
+  {{>service}}
+  {{!-- end of service --}}
+
+
+  {{!-- map --}}
+  {{>map}}
+  {{!-- end of map --}}
+
+  {{!-- contact --}}
+  {{>contactpartial}}
+  {{!-- end of contact --}}
+
+  {{!-- footer --}}
+  {{>footer}}
+  {{!-- end of footer --}}
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
